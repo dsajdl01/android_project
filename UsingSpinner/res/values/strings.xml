@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UsingSpinner</string>
+    <string name="spinner2">Spinner_2 From arrays xml file</string>
+    <string name="action_settings">Settings</string>
+    <string name= "spinner1">Spinner_1</string>
+     <!-- Used in Spinner/spinner_2.java -->
+    <string-array name="countries">
+        <item>China2</item>
+        <item>Russia2</item>
+        <item>Germany2</item>
+        <item>Ukraine2</item>
+        <item>Belarus2</item>
+        <item>USA2</item>
+    </string-array>
+
+</resources>
