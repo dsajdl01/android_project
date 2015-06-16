@@ -1,0 +1,160 @@
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+    
+    <TextView 
+        android:id="@+id/txt_top_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="14sp"/>
+    
+     <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout0" android:layout_height="wrap_content">
+ 		 <EditText
+	        android:id="@+id/edit_txt_name"
+	        android:layout_width="140dip"
+	        android:layout_height="wrap_content"
+	        android:textSize="12sp"
+	        android:hint="@string/name" />
+	         
+	     <EditText
+	        android:id="@+id/edit_txt_em"
+	        android:layout_width="140dip"
+	        android:layout_height="wrap_content"
+	        android:textSize="12sp"
+	        android:hint="@string/email" />
+	</LinearLayout>
+	   <!-- here are 2 Edit text  ******************************** -->
+     
+       <Button
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity= "right"
+	        android:onClick="addText"
+	        android:textSize="15sp"
+	        android:text="@string/btn_text" />
+     
+    
+	     
+	     <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout2" android:layout_height="wrap_content">
+	         <!-- here is edit_txt_id single edit text ******************* -->
+	       <EditText
+		        android:id="@+id/edit_txt_id"
+		        android:layout_width="160dip"
+		        android:layout_height="wrap_content"
+		        android:textSize="12sp"
+		        android:hint="@string/emp_id" />  
+			
+			<Button
+				    android:id="@+id/btn_found"
+				    android:layout_width="wrap_content" 
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="right"
+				    android:onClick="getEmployee"
+		  		    android:textSize="15sp"
+				    android:text="@string/btn_found" />
+     	</LinearLayout>
+     	<LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout10" android:layout_height="wrap_content">
+	         <!-- here is edit_txt_id single edit text ******************* -->
+	       <EditText
+		        android:id="@+id/edit_txt_id_for_update"
+		        android:layout_width="160dip"
+		        android:layout_height="wrap_content"
+		        android:textSize="12sp"
+		        android:hint="@string/emp_id" />  
+			
+			<Button
+				    android:id="@+id/btn_mail"
+				    android:layout_width="wrap_content" 
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="right"
+				    android:onClick="getEmployeeId"
+		  		    android:textSize="15sp"
+				    android:text="@string/btn_mail" />
+     	</LinearLayout>
+	     
+	     
+	      <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout3" android:layout_height="wrap_content">
+	          <!-- @+id/edit_txt_deleteEmp single2 **************** -->
+			<EditText
+		        android:id="@+id/edit_txt_deleteEmp"
+		        android:layout_width="160dip"
+		        android:layout_height="wrap_content"
+		        android:textSize="12sp"
+		        android:hint="@string/delete_empl" />
+			
+			<Button
+				    android:layout_width="wrap_content" 
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="right"
+				    android:onClick="deleteEmployee"
+		  		    android:textSize="15sp"
+				    android:text="@string/btn_deleteEmpl" />
+     	</LinearLayout>
+	     
+	      <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout4" android:layout_height="wrap_content">
+		     <Button
+		        android:layout_width="145dp"
+    	        android:layout_height="wrap_content"
+        	    android:layout_gravity="left"
+		        android:onClick="displayText"
+		        android:textSize="15sp"
+		        android:text="@string/btn_text_display" />
+		      <Button
+		        android:layout_width="145dp"
+           		android:layout_height="wrap_content"
+            	android:layout_gravity="right"
+		        android:onClick="deleteText"
+		        android:textSize="15sp"
+		        android:text="@string/btn_text_delete" />
+		     </LinearLayout>
+		      
+	       <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout5" android:layout_height="wrap_content">
+			<Button
+		        android:layout_width="145dp"
+           		android:layout_height="wrap_content"
+           		android:layout_gravity="left"
+		        android:onClick="getNameColumnText"
+		        android:textSize="15sp"
+		        android:text="@string/btn_text_name" />
+			<Button
+		        android:layout_width="145dp"
+           		android:layout_height="wrap_content"
+           		android:layout_gravity="right"
+		        android:onClick="getCurrentDate"
+		        android:textSize="15sp"
+		        android:text="@string/btn_text_date" />
+			</LinearLayout>
+			 <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout7" android:layout_height="wrap_content">
+			<Button
+		        android:layout_width="145dp"
+           		android:layout_height="wrap_content"
+           		android:layout_gravity="left"
+		        android:onClick="countRows"
+		        android:textSize="15sp"
+		        android:text="@string/btn_txt_count" />
+			<Button
+		        android:layout_width="145dp"
+           		android:layout_height="wrap_content"
+           		android:layout_gravity="right"
+		        android:onClick="getStringText"
+		        android:textSize="15sp"
+		        android:text="@string/btn_text_str" />
+			</LinearLayout>
+			 <TextView
+		        android:id="@+id/txt_view"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textSize="14sp" />
+		      
+</LinearLayout>
+</ScrollView>

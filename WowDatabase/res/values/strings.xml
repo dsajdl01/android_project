@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WowDatabase</string>
+    <string name="name">Entry your name</string>
+    <string name="email">Entry your email</string>
+    <string name="emp_id">Enter employee id</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_text">Add Text</string>
+    <string name="btn_text_display">Display Text</string>
+    <string name="btn_text_delete">Delete All</string>
+    <string name="btn_found">Get Employee</string>
+    <string name="delete_empl">Entry employee id</string>
+    <string name="btn_deleteEmpl">Delete Employee</string>
+    <string name="btn_back">Back</string>
+	<string name="btn_text_name">Get All Names</string>
+	<string name="btn_text_date">Get Date</string>
+	<string name="btn_mail">Update Mail</string>
+	<string name="btn_txt_count">Get Number of Row</string>
+	<string name="btn_text_str">Get String</string>
+</resources>
