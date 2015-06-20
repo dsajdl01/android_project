@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="checkbox_pref"
+    android:title="Check Box Preferences">
+
+   <Preference
+       android:icon="@drawable/back_arrow" 
+       android:title="Acts like a button"
+                android:key="button" 
+                android:summary="This will act like a button"/>
+    
+     <ListPreference     android:title="Download Details"
+                      android:summary="Select the kind of data that you would like to download"
+                      android:key="downloadType"
+                      android:defaultValue="1"
+                      android:entries="@array/listArray"
+                      android:entryValues="@array/listValues" />
+</PreferenceScreen>
