@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Suggest</string>
+    <string name="original_hint">Enter partial text</string>
+    <string name="original_label">Original text</string>
+    <string name="action_settings">Settings</string>
+    <string name="result_label">Suggestions:</string>
+    <string name="working">Working an Picu</string>
+    <string name="error">(Web service error)</string>
+    <string name="interupted">(Web service interupted)</string>
+	<string name="no_results">(No suggestions!)</string>
+    
+		
+</resources>
